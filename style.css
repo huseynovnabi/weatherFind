@@ -30,10 +30,12 @@ a:hover {
   margin: 30px 0;
 }
 #weather .box input {
+  border: 2px solid #000;
   margin-bottom: 30px;
   border-radius: 20px;
 }
 #weather .box #btn {
+  border: 2px solid #000;
   width: 100px;
   display: flex;
   justify-content: center;
@@ -44,6 +46,7 @@ a:hover {
 }
 #weather .box #btn:hover {
   cursor: pointer;
+  opacity: 0.8;
 }
 #weather .box #btn h5 {
   color: #000;

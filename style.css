@@ -8,4 +8,44 @@ a {
 }
 a:hover {
   color: black;
+}
+
+#weather {
+  padding: 60px 0;
+}
+#weather .box {
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#weather .box .data h1, #weather .box .data h2 {
+  font-size: 25px;
+}
+#weather .box .data h2 {
+  margin: 30px 0;
+}
+#weather .box input {
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+#weather .box #btn {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+#weather .box #btn h5 {
+  color: #000;
+  font-size: 20px;
+}
+#weather .box #btn h5:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

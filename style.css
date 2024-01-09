@@ -32,7 +32,7 @@ a:hover {
 #weather .box input {
   width: 130px;
   padding: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   border-radius: 30px;
 }
 #weather .box #btn {
@@ -40,12 +40,11 @@ a:hover {
   justify-content: center;
   align-items: center;
   background-color: white;
-  padding: 8px 27px;
+  padding: 8px 25px;
   border-radius: 20px;
 }
 #weather .box #btn:hover {
   cursor: pointer;
-  opacity: 0.8;
 }
 #weather .box #btn h5 {
   color: #000;

@@ -14,9 +14,9 @@ a:hover {
   padding: 100px 0;
 }
 #weather .box {
-  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
-  color: white;
-  padding: 30px 50px;
+  color: #fff;
+  background-color: #A4CAFF;
+  padding: 38px 50px;
   border-radius: 20px;
   text-align: center;
   display: flex;
@@ -30,8 +30,8 @@ a:hover {
   margin: 30px 0;
 }
 #weather .box input {
-  width: 120px;
-  padding: 6px 10px;
+  width: 130px;
+  padding: 10px 80px;
   margin-bottom: 25px;
   border-radius: 20px;
 }
@@ -39,16 +39,15 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  padding: 5px 20px;
+  background-color: #79AFFF;
+  padding: 10px 33px;
   border-radius: 20px;
 }
 #weather .box #btn:hover {
   cursor: pointer;
 }
 #weather .box #btn h5 {
-  color: #000;
-  font-size: 15px;
+  color: #fff;
 }
 #weather .box #btn h5:hover {
   cursor: pointer;
